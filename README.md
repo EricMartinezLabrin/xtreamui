@@ -13,6 +13,8 @@ update your ubuntu first, then install panel
   
 If you want a whole NEW installation, choose MAIN and then ADMIN.  
 If you want ONLY the admin part, select ADMIN only.
+If you want to install load balance on additional servers, 
+add a server to panel in manage servers page, then run script and proceed with LB option.
 
 ### tutorials are here;###
 https://www.youtube.com/playlist?list=PLJB51brdC_w7dTDxi1MPqiuk3JH5U2ekn

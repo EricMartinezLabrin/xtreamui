@@ -12,8 +12,8 @@ update your ubuntu first, then install panel
 * sudo python install.py  
   
 If you want a whole NEW installation, choose MAIN and then ADMIN.  
-If you want ONLY the admin part, select ADMIN only.
-If you want to install load balance on additional servers, 
+If you want ONLY the admin part, select ADMIN only.  
+If you want to install load balance on additional servers,  
 add a server to panel in manage servers page, then run script and proceed with LB option.
 
 ### tutorials are here;###

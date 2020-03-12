@@ -32,7 +32,7 @@ add a server to panel in manage servers page, then run script and proceed with L
 * sha1: "5F8A7643A9E7692108E8B40D0297A7A5E4423870"
 
 ### note,
-original install.py is from https://xtream-ui.com/install/install.py  
+i forked this install.py is from https://xtream-ui.com/install/install.py  
 btw, developer removed admin part from original install.py at begining of this year.  
 you can compare my install.py with original one.
 

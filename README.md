@@ -17,7 +17,9 @@ If you want to install load balance on additional servers,
 add a server to panel in manage servers page, then run script and proceed with LB option.
 
 ### tutorials are here;###
-https://www.youtube.com/playlist?list=PLJB51brdC_w7dTDxi1MPqiuk3JH5U2ekn
+
+[Xtream-UI Tutorials](https://www.youtube.com/playlist?list=PLJB51brdC_w7dTDxi1MPqiuk3JH5U2ekn "Xtream-UI Tutorials")
+
 
 ### Files Hashes ###
 * admin_xtreamcodes_reborn.tar
@@ -33,3 +35,7 @@ https://www.youtube.com/playlist?list=PLJB51brdC_w7dTDxi1MPqiuk3JH5U2ekn
 original install.py is from https://xtream-ui.com/install/install.py  
 btw, developer removed admin part from original install.py at begining of this year.  
 you can compare my install.py with original one.
+
+### note2,
+edit pytools/balancer.py to use "auto lb installer" from this mirror. auto lb installer added to panel with update if i remembered correctly.  
+`sed -i 's|"https://xtream-ui.com/install/balancer.py"|"https://bitbucket.org/emre1393/xtreamui_mirror/downloads/balancer.py"|g' /home/xtreamcodes/iptv_xtream_codes/pytools/balancer.py`

@@ -37,5 +37,5 @@ btw, developer removed admin part from original install.py at begining of this y
 you can compare my install.py with original one.
 
 ### note2,
-edit pytools/balancer.py to use "auto lb installer" from this mirror. auto lb installer added to panel with update if i remembered correctly.  
+edit pytools/balancer.py to use "auto lb installer" from this mirror. auto lb installer added to panel with update    
 `sed -i 's|"https://xtream-ui.com/install/balancer.py"|"https://bitbucket.org/emre1393/xtreamui_mirror/downloads/balancer.py"|g' /home/xtreamcodes/iptv_xtream_codes/pytools/balancer.py`

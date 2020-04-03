@@ -13,8 +13,8 @@ update your ubuntu first, then install panel
   
 If you want a whole NEW installation, choose MAIN and then ADMIN.  
 If you want ONLY the admin part, select ADMIN only.  
-If you want to install load balance on additional servers,  
-add a server to panel in manage servers page, then run script and proceed with LB option.
+If you want to install load balance on additional servers, add a server to panel in manage servers page, then run script and proceed with LB option.  
+If you want to update admin panel, select UPDATE, then paste download link of release_xyz.zip file.  
 
 ### tutorials are here;###
 
@@ -38,4 +38,8 @@ you can compare my install.py with original one.
 
 ### note2,
 edit pytools/balancer.py to use "auto lb installer" from this mirror. auto lb installer added to panel with update    
-`sed -i 's|"https://xtream-ui.com/install/balancer.py"|"https://bitbucket.org/emre1393/xtreamui_mirror/downloads/balancer.py"|g' /home/xtreamcodes/iptv_xtream_codes/pytools/balancer.py`
+`sed -i 's|"https://xtream-ui.com/install/balancer.py"|"https://bitbucket.org/emre1393/xtreamui_mirror/downloads/balancer.py"|g' /home/xtreamcodes/iptv_xtream_codes/pytools/balancer.py`  
+
+### note3,  
+developer made update releases open to public after r22c release, you can download them from https://xtream-ui.com.  
+i added an "UPDATE" part to install.py, it will ask link of update zip file.

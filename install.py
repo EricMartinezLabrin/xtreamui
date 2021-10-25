@@ -195,6 +195,7 @@ def configure():
         # edited these 2 files return api response without main server ip, it is usefull if you use a proxy in front of your main server.
         os.system("mv /home/xtreamcodes/iptv_xtream_codes/wwwdir/panel_api.php /home/xtreamcodes/iptv_xtream_codes/wwwdir/.panel_api_original.php && wget -q https://bitbucket.org/emre1393/xtreamui_mirror/downloads/panel_api.php -O /home/xtreamcodes/iptv_xtream_codes/wwwdir/panel_api.php")
         os.system("mv /home/xtreamcodes/iptv_xtream_codes/wwwdir/player_api.php /home/xtreamcodes/iptv_xtream_codes/wwwdir/.player_api_original.php && wget -q https://bitbucket.org/emre1393/xtreamui_mirror/downloads/player_api.php -O /home/xtreamcodes/iptv_xtream_codes/wwwdir/player_api.php")
+        os.system("mv /home/xtreamcodes/iptv_xtream_codes/wwwdir/xmltv.php /home/xtreamcodes/iptv_xtream_codes/wwwdir/.xmltv.php && wget -q https://bitbucket.org/emre1393/xtreamui_mirror/downloads/xmltv.php -O /home/xtreamcodes/iptv_xtream_codes/wwwdir/xmltv.php")
     if not os.path.exists("/home/xtreamcodes/iptv_xtream_codes/tv_archive"): os.mkdir("/home/xtreamcodes/iptv_xtream_codes/tv_archive/")
     os.system("ln -s /home/xtreamcodes/iptv_xtream_codes/bin/ffmpeg /usr/bin/")
     os.system("chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb > /dev/null")

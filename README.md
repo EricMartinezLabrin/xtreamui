@@ -8,7 +8,8 @@ update your ubuntu first, then install panel
   
 * sudo apt-get update && sudo apt-get upgrade -y; 
 * sudo apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y ; 
-* rm install.py; wget https://github.com/EricMartinezLabrin/xtreamui/blob/a86a37504b2f619201467fdd121a9786d7da1793/install.py;
+* rm install.py; https://bitbucket.org/emre1393/xtreamui_mirror/downloads/install.py;
+
 * sudo python install.py  
   
 If you want a whole NEW installation, choose MAIN.  
